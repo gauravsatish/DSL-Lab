@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1785319259 source:/home/dsle/Documents/E045/Lab1/P3/main.c
+	<stdio.h>
+	<stdlib.h>
+

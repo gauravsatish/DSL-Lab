@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1785316073 source:/home/dsle/Documents/E045/Lab1/P2/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
