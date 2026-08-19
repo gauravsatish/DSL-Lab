@@ -9,6 +9,7 @@ struct Student {
 
 void read(struct Student *student) {
 	getchar();
+	printf("Enter student name, roll no, marks: \n");
 	fgets(student->name, 50, stdin);
 	student->name[strcspn(student->name, "\n")] = '\0';
 	scanf("%d", &(student->roll_no));
@@ -16,9 +17,10 @@ void read(struct Student *student) {
 }
 
 void display(struct Student *student) {
+	printf("Name: ");
 	puts(student->name);
-	printf("%d\n", student->roll_no);
-	printf("%f\n", student->marks);
+	printf("Roll no: %d\n", student->roll_no);
+	printf("Marks: %f\n", student->marks);
 }
 
 int main() {
@@ -43,6 +45,6 @@ int main() {
 		}
 	}
 
-	printf("Highest: ");
+	printf("\nHighest: \n");
 	display(highest);
 }
